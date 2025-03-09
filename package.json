@@ -1,0 +1,26 @@
+{
+  "name": "code-analyzer-server",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "build": "chmod +x index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": ["code-analyzer", "linter", "mcp", "code-quality"],
+  "author": "",
+  "license": "ISC",
+  "description": "MCP server for analyzing code for bugs, errors, and functionality issues",
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.6.1",
+    "@typescript-eslint/eslint-plugin": "^8.26.0",
+    "@typescript-eslint/parser": "^8.26.0",
+    "eslint": "^9.22.0",
+    "htmlhint": "^1.1.4",
+    "jshint": "^2.13.6",
+    "pyright": "^1.1.396",
+    "stylelint": "^16.15.0",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.8.2"
+  }
+}
